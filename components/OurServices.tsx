@@ -4,6 +4,7 @@ import React from 'react'
 import FadeIn from './FadeIn'
 import Button from './Button'
 import StarsCanvas from './StarCanvas'
+import Link from 'next/link'
 
 const OurServices = () => {
   return (
@@ -56,12 +57,14 @@ const FeatureItem = ({ title, icon, description }: FeatureItem) => {
       <p className="text-lg lg:text-md  font-normal text-gray-700">
         {description}
       </p>
+      <Link href='https://www.youtube.com/channel/UC3DjZpg8zKKRCjE5NVQaZyQ'>
       <Button 
        title='See More'
        type='button'
        variant='btn_blue_text mb-2 justify-center items-center mx-auto hover:text-[#7209B7]'
 
       />
+      </Link>
       </div>
     </div>
     </FadeIn>

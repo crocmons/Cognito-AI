@@ -162,8 +162,8 @@ export const NAV_LINKS = [
   export const FOOTER_CONTACT_INFO = {
     title: 'Contact Us',
     links: [
-      { label: 'Admin Number', value: '123-456-7890' },
-      { label: 'Email Address', value: 'cognito@ai.com' },
+      { label: 'Admin Number', value: '+91 83696 45695' },
+      { label: 'Email Address', value: 'admin@cognito-ai.com' },
     ],
   };
   
@@ -171,7 +171,7 @@ export const NAV_LINKS = [
       {href:"/", icons:'/facebook-svg.svg'},
       {href:"/", icons:'/instagram.svg'},
       {href:"https://x.com/CognitoAi2023", icons:'/twitter.svg'},
-      {href:"/", icons:'/youtube.svg'},
+      {href:"#", icons:'/youtube.svg'},
       {href:"https://linkedin.com/in/cognito-ai-29a45229a", icons:'/linkedin.svg'},
     
   ];

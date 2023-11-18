@@ -75,25 +75,25 @@ const ScrollCount = () => {
         >
           <div className="max-w-[1100px] justify-center w-full m-auto py-12 px-4 relative group overflow-hidden bg-gradient-3 text-white rounded-2xl bg-center bg-cover bg-no-repeat">
             <h1 className="font-bold text-5xl mx-3 flex justify-center items-center top-10 py-2 my-3">
-              {counter && <CountUp start={0} end={1500} duration={2} delay={0} />}+
+              {counter && <CountUp start={0} end={1539} duration={2} delay={0} />}+
             </h1>
-            <div className="glassmorphism flex flex-col md:flex-row md:w-[60%] w-[100%] mx-auto space-x-2 h-auto justify-center items-center">
+            <div className="glassmorphism flex flex-col md:w-[60%] w-[100%] mx-auto space-x-2 h-auto justify-center items-center">
               <p className="regular-20 mt-3 p-2">
                 {testimonials[currentIndex].text}
               </p>
 
-              <div className="flex flex-col justify-center">
-                <Image
+              {/* <div className=""> */}
+                {/* <Image
                   src={testimonials[currentIndex].image}
                   alt={testimonials[currentIndex].name}
                   className="rounded-full my-2 bg-center bg-cover duration-500"
-                  width={150}
-                  height={150}
-                />
-                <h1 className="font-bold text-sm mt-1">
+                  width={200}
+                  height={200}
+                /> */}
+                <h1 className="font-bold text-sm my-2 flex justify-end items-end mx-auto">
                   {testimonials[currentIndex].name}
                 </h1>
-              </div>
+              {/* </div> */}
             </div>
 
             <div className="hidden group-hover:block absolute top-[45%] -translate-x-0 translate-y-[-50%] left-10 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">

@@ -135,6 +135,7 @@ const ContactUS: React.FC = () => {
                 <PhoneInput
                   inputStyle="py-3 px-2 hover:shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] rounded-lg transition-all"
                   defaultCountry="IN"
+                  placeholder="Enter your phone number"
                   name="number"
                   onChange={(e)=>handleNumberChange}
                   value={data.number}

@@ -11,12 +11,12 @@ type Props = {
 }
 
 const FAQ = () => {
-  const [active, setActive] = useState([false, false, false, false, false])
+  const [active, setActive] = useState([false, false, false, false, false, false, false ])
 
   const isSomeActive = active.some((element)=> element);
 
   const handleClick:React.MouseEventHandler<HTMLButtonElement> = ()=>{
-    isSomeActive ? setActive([false, false, false, false, false]) : setActive([true, true, true, true, true])
+    isSomeActive ? setActive([false, false, false, false, false,false, false]) : setActive([true, true, true, true, true, true, true])
   }
 
   return (

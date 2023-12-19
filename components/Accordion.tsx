@@ -10,7 +10,7 @@ type Props = {
 
 const Accordion = ({question, idx, answer}: Props) => {
    
-  const [turn, setTurn] = useState([false, false, false, false, false])
+  const [turn, setTurn] = useState([false, false, false, false, false, false, false])
   
   const toggleAccordion = ()=>{
      let newTurn = [...turn!]

@@ -20,7 +20,7 @@ const FAQ = () => {
   }
 
   return (
-    <div className='items-center flex justify-center mx-auto flex-col lg:w-7/12 lg:mt-7 w-full my-5 px-4'> 
+    <div className='items-center flex justify-center mx-auto flex-col lg:w-7/12 lg:my-20 py-4 w-full my-5 px-4'> 
       <h2 className='text-3xl px-6 py-3.5 text-white rounded-xl bg-gradient-to-r from-blue-900 to-sky-600 font-bold'>Frequently Asked Questions</h2>
 
       <div className='flex items-center justify-between w-full mb-6 lg:justify-end'>

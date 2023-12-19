@@ -17,7 +17,6 @@ export default function Home() {
       <About />
       <Work />
       <Carousel />
-      <StarsCanvas />
       <OurServices />
       <FAQ />
       <GetApp />

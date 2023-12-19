@@ -5,6 +5,7 @@ import Button from './Button'
 import { motion } from "framer-motion"
 import FadeIn from './FadeIn'
 import EarthCanvas from './Earth'
+import Link from 'next/link'
 
 const Hero = () => {
   return (
@@ -56,12 +57,15 @@ const Hero = () => {
 
         <FadeIn>
         <div className="mt-5 flex flex-col w-full gap-3 sm:flex-row">
+        <Link href="mailto:admin@cognito-ai.com">
+        
         <Button 
             type="button" 
             title="Setup a meeting now" 
             icon='/gmeet-vector.svg'
             variant="black_btn" 
           />
+          </Link>  
           <Button 
             type="button" 
             title="How we work?" 

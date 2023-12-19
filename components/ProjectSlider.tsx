@@ -36,7 +36,7 @@ const ProjectSlider = () => {
             >
                 { WorkProjects.map((project)=>(
                    <SwiperSlide key={project.title}>
-                       <div className='mb-20 flex flex-col gap-6 group relative shadow-lg text-white rounded-xl px-6 py-8 h-[250px] w-[215px] lg:h-[400px] lg:w-[350px] mx-auto'>
+                       <div className='mb-20 flex flex-col gap-6 group relative shadow-lg text-white rounded-xl px-6 py-1 h-[250px] w-[215px] lg:h-[400px] lg:w-[350px] mx-auto'>
                           
                           <div className='absolute inset-0 rounded-md bg-cover bg-center' style={{ backgroundImage: `url(${project.bgImg})`}} />
 

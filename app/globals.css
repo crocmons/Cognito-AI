@@ -22,22 +22,32 @@ body {
 
 
 
+.main {
+  width: 100vw;
+  min-height: 100vh;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  padding: 120px 24px 160px 24px;
+  pointer-events: none;
+}
+
 .gradient {
   height: fit-content;
   z-index: 3;
   width: 100%;
-  max-width: 640px; 
+  max-width: 640px;
   background-image: radial-gradient(
       at 27% 37%,
-      hsla(215, 98%, 61%, 1) 0px,
+      rgb(41, 129, 252) 0px,
       transparent 0%
     ),
-    radial-gradient(at 97% 21%, hsla(125, 98%, 72%, 1) 0px, transparent 50%),
-    radial-gradient(at 52% 99%, hsla(354, 98%, 61%, 1) 0px, transparent 50%),
-    radial-gradient(at 10% 29%, hsla(256, 96%, 67%, 1) 0px, transparent 50%),
-    radial-gradient(at 97% 96%, hsla(38, 60%, 74%, 1) 0px, transparent 50%),
+    radial-gradient(at 97% 21%, rgb(251, 57, 235) 0px, transparent 50%),
+    radial-gradient(at 52% 99%, rgb(237, 58, 253) 0px, transparent 50%),
+    radial-gradient(at 10% 29%, rgb(118, 72, 246) 0px, transparent 50%),
+    radial-gradient(at 97% 96%, rgb(13, 77, 141) 0px, transparent 50%),
     radial-gradient(at 33% 50%, hsla(222, 67%, 73%, 1) 0px, transparent 50%),
-    radial-gradient(at 79% 53%, hsla(343, 68%, 79%, 1) 0px, transparent 50%);
+    radial-gradient(at 79% 53%, rgb(239, 82, 224) 0px, transparent 50%);
   position: absolute;
   content: "";
   width: 100%;
@@ -181,7 +191,7 @@ body {
 
 
   .bold-64 {
-    @apply text-[64px] font-[700] leading-[120%];
+    @apply text-[64px] font-[700] leading-[120%] ;
   }
 
   .bold-52 {
@@ -189,7 +199,7 @@ body {
   }
 
   .bold-40 {
-    @apply text-[40px] font-[700] leading-[120%];
+    @apply text-[40px] font-[700] leading-[120%] ;
   }
 
   .bold-32 {

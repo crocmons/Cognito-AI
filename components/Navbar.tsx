@@ -22,19 +22,19 @@ const Navbar = () => {
           <Link href="/">
             <li className="navbarLi">Home</li>
           </Link>
-          <Link href="/services">
+          <Link href="#services">
             <li className="navbarLi">Services</li>
           </Link>
-          <Link href="/work">
+          <Link href="#work">
             <li className="navbarLi">Work</li>
           </Link>
-          <Link href="/contact-us">
+          <Link href="#contact">
             <li className="navbarLi">Contact Us</li>
           </Link>
         </ul>
         <div className="hidden lg:inline-flex items-center">
           <button className="w-40 h-14 bg-[#0077B6] text-white uppercase text-md font-semibold rounded-md hover:bg-[#660708]">
-            <Link href="/contact-us">Get in Touch</Link>
+            <Link href="#contact">Get in Touch</Link>
           </button>
         </div>
         {/* Mobile Menu */}
@@ -45,17 +45,17 @@ const Navbar = () => {
                 <Link href="/">
                   <li className="mbnavbarLi">Home</li>
                 </Link>
-                <Link href="/services">
+                <Link href="#services">
                   <li className="mbnavbarLi">Services</li>
                 </Link>
-                <Link href="/work">
+                <Link href="#work">
                   <li className="mbnavbarLi">Work</li>
                 </Link>
-                <Link href="/contact-us">
+                <Link href="#contact">
                   <li className="mbnavbarLi">Contact Us</li>
                 </Link>
               <button className="flex items-center justify-center mx-auto mt-2 py-2 px-4 bg-[#0077B6] text-white uppercase text-sm font-semibold rounded hover:bg-[#660708]">
-                <Link href="/contact-us">Get in Touch</Link>
+                <Link href="#contact">Get in Touch</Link>
               </button>
               </ul>
             </div>

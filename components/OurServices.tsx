@@ -7,7 +7,7 @@ import StarsCanvas from './StarCanvas'
 
 const OurServices = () => {
   return (
-    <section className=" flex-col flexCenter overflow-hidden bg-feature-bg bg-center bg-no-repeat py-10">
+    <section className=" flex-col flexCenter overflow-hidden bg-feature-bg bg-center bg-no-repeat py-10" id='services'>
       <div className="max-container padding-container relative w-full flex justify-center">
 
         <div className="z-20 flex w-full flex-col lg:w-[90%]">

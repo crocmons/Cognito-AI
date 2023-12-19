@@ -10,7 +10,7 @@ const GetApp = () => {
       <div className="get-app mt-12 mb-2">
       <FadeIn>
         <div className="z-20 flex w-full flex-1 flex-col items-start justify-center gap-12">
-          <h2 className="bold-40 lg:bold-64 xl:max-w-[320px]">#Ask your queries</h2>
+          <h2 className="bold-40 lg:bold-64 xl:max-w-[320px] text-white ">#Ask your queries</h2>
           <p className="text-md text-white py-2">Reach out to us for a conversation about how we can bring your digital vision to life.</p>
           <div className="flex flex-col gap-3 whitespace-nowrap xl:flex-row">
             <Button 

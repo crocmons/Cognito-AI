@@ -94,7 +94,7 @@ const ContactUS: React.FC = () => {
   return (
     <div className="mt-3 mx-auto mb-6 items-center justify-center" id="contact">
         <div className="lg:max-container padding-container z-20 flex w-full flex-col lg:w-[90%] justify-center text-center items-center mx-auto">
-          <h2 className="bold-40 lg:bold-64 text-gray-800">Contact Us</h2>
+          <h2 className="bold-40 lg:bold-64 text-black">Contact Us</h2>
           <p className="text-base py-6 items-center tracking-wider text-center justify-center text-gray-500 mx-auto">
             Now that you know us and our work, it is possible that you might be looking forward to discuss your business and services or digital requirements with us to get the appropriate solutions for your brand. Kindly feel free to take an appointment with us, our executives would be happy to guide you and build a latest digital platform for your brand.
           </p>

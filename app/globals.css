@@ -191,7 +191,7 @@ body {
 
 
   .bold-64 {
-    @apply text-[64px] font-[700] leading-[120%] ;
+    @apply text-[64px] font-[700] leading-[120%] text-black ;
   }
 
   .bold-52 {

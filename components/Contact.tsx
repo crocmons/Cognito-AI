@@ -102,7 +102,7 @@ const ContactUS: React.FC = () => {
         <div className="lg:mb-32 mb-12 flex flex-col items-center justify-center p-2 mx-3 mt-2 ">
           <div className="flex flex-col lg:flex-row justify-center items-center mx-auto w-full h-auto ">
             <form
-              className="w-full h-auto lg:w-[700px] space-y-6 mx-auto bg-slate-100 border border-gray-10 shadow-2xl p-5 rounded-md justify-center items-center"
+              className="w-full h-auto lg:w-[700px] space-y-6 mx-auto bg-slate-100 border border-gray-10 shadow-2xl p-5 rounded-md justify-center items-center text-black"
               onSubmit={sendEmail}
             >
               <div className="flex flex-col">

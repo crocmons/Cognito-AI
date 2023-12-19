@@ -8,7 +8,7 @@ const Carousel = () => {
   return (
     <>
       <FadeIn>
-        <h1 className="bold-40 lg:bold-52 flex mt-10 mb-4 py-4 justify-center items-center mx-auto">Testimonial</h1>
+        <h1 className="bold-40 lg:bold-52 flex mt-10 mb-4 py-4 justify-center items-center mx-auto text-black">Testimonial</h1>
         
         <ScrollCount />
         

@@ -23,10 +23,10 @@ const Hero = () => {
         </FadeIn>
 
         <FadeIn>
-        <h3 className='bold-52 lg:bold-64'> 
+        <h3 className='bold-52 lg:bold-64 text-black'> 
         Cognito-AI
         </h3>
-        <h4 className='mt-4 bold-32'>Elevate digital Possibilities</h4>
+        <h4 className='mt-4 bold-32 text-black'>Elevate digital Possibilities</h4>
         </FadeIn>
 
         <FadeIn>

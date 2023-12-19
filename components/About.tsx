@@ -27,7 +27,7 @@ const About = () => {
      <div className='relative z-20 flex flex-1 flex-col xl:w-1/2'>
 
         <FadeIn>
-        <h4 className='bold-52 lg:bold-64'> 
+        <h4 className='bold-52 lg:bold-64 text-black'> 
         About Us
         </h4>
         </FadeIn>

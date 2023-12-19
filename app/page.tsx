@@ -15,8 +15,8 @@ export default function Home() {
       <FadeIn>  
       <Hero />
       <About />
-      <Carousel />
       <Work />
+      <Carousel />
       <StarsCanvas />
       <OurServices />
       <FAQ />

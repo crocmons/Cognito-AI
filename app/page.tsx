@@ -18,9 +18,9 @@ export default function Home() {
       <Work />
       <OurServices />
       <Carousel />
-      <GetApp />
-      <ContactUS />
       <FAQ />
+      <ContactUS />
+      <GetApp />
       </FadeIn>
     </main>
   )

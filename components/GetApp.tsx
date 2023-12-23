@@ -20,7 +20,7 @@ const GetApp = () => {
               variant="btn_white"
               full
             />
-            <Link href="/contact-us">
+            <Link href="#contact">
             <Button 
               type="button"
               title="Contact US"

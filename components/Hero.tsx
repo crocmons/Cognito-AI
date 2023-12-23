@@ -65,13 +65,17 @@ const Hero = () => {
             icon='/gmeet-vector.svg'
             variant="black_btn" 
           />
-          </Link>  
+          </Link> 
+
+          <Link href="https://www.youtube.com/@AbhishekJhingan/videos">
+          
           <Button 
             type="button" 
             title="How we work?" 
             icon="/play.svg"
             variant="btn_blue_text" 
           />
+          </Link> 
         </div>
         </FadeIn>
       </div>
